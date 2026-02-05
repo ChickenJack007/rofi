@@ -5,16 +5,14 @@
     b-color: #1e1e2e;
     fg-color: #cdd6f4;
     fgp-color: #cdd6f4;
-    b-radius: 5px;
+    b-radius: 9px;
     g-padding: 8px;
-    hl-color: #1e1e2e;
+    //hl-color: #1e1e2e;
     hlt-color: #cdd6f4;
     alt-color: transparent;
-    //wbg-color: #1e1e2e;
-    //wbg-color: transparent;
-    //wbg-color: #11111b;
-    wbg-color: rgba(8,20,34,0.6);
-    //wbg-color: rgba(19,68,163,0.6`);
+    //wbg-color: rgba(8,20,34,0.4);
+    wbg-color: rgba(10,16,23,0.4);
+    hl-color: rgba(10,16,23,0.6);
     w-border: 2px solid;
     w-border-color: rgba(33, 97, 185, 0.8);
     w-padding: 12px;
@@ -40,9 +38,9 @@ listview {
 
 window {
     transparency: "real";
-    location: north west;
+    //location: north west;
     //height: 50%;
-    width: 18%;
+    width: 35%;
     //width: 300px;
     border-radius: @b-radius;
     background-color: @wbg-color;
